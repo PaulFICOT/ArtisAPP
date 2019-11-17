@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "fr.paulficot.grid_menu"
+        applicationId "fr.paulficot.artisv2"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
