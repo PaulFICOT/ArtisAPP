@@ -1,0 +1,23 @@
+<resources>
+    <!-- App settings -->
+    <string name="app_name">Artis bus</string>
+
+    <!-- App content -->
+    <string name="main_title">Bus Artis</string>
+
+    <string name="empty"></string>
+
+    <string name="desc_ligne1">Logo ligne 1</string>
+    <string name="desc_ligne2">Logo ligne 2</string>
+    <string name="desc_ligne3">Logo ligne 3</string>
+    <string name="desc_ligne4">Logo ligne 4</string>
+    <string name="desc_ligne5">Logo ligne 5</string>
+    <string name="desc_ligne6">Logo ligne 6</string>
+    <string name="desc_ligne7">Logo ligne 7</string>
+    <string name="desc_ligne8">Logo ligne 8</string>
+    <string name="desc_ligne9">Logo ligne 9</string>
+    <string name="desc_ligne10">Logo ligne 10</string>
+    <string name="desc_ligned1">Logo ligne D1</string>
+    <string name="desc_ligned2">Logo ligne D2</string>
+
+</resources>
