@@ -1,4 +1,4 @@
-package fr.paulficot.artisv2;
+package fr.paulficot.artisbus;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.GridLayout;
 import android.widget.Toast;
+
+import fr.paulficot.artisv2.R;
 
 /**
  * Application d'envoi de mail pour le SIQ de la mairie de RAISMES
