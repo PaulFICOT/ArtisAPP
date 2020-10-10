@@ -1,23 +1,30 @@
 <resources>
-    <!-- App settings -->
-    <string name="app_name">Artis bus</string>
+    <string name="app_name">Artis Bus</string>
+    <string name="activity_main">Artis Bus</string>
+    <string name="activity_rss">Actualité</string>
+    <string name="activity_bus">Ligne de bus</string>
 
-    <!-- App content -->
-    <string name="main_title">Bus Artis</string>
+    <!-- MENU -->
+    <string name="main_title">Artis Bus</string>
+    <string name="menu_title">Rafraîchir</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_rss">Info trafic</string>
+    <string name="menu_website">Site Artis</string>
+    <string name="menu_refresh">Rafraîchir</string>
 
-    <string name="empty"></string>
+    <!-- CARDVIEW -->
+    <string name="cardview_1">Ligne 1</string>
+    <string name="cardview_2">Ligne 2</string>
+    <string name="cardview_3">Ligne 3</string>
+    <string name="cardview_4">Ligne 4</string>
+    <string name="cardview_5">Ligne 5</string>
+    <string name="cardview_6">Ligne 6</string>
+    <string name="cardview_7">Ligne 7</string>
+    <string name="cardview_8">Ligne 8</string>
+    <string name="cardview_9">Ligne 9</string>
+    <string name="cardview_10">Ligne 10</string>
+    <string name="cardview_d1">Ligne D1</string>
+    <string name="cardview_d2">Ligne D2</string>
 
-    <string name="desc_ligne1">Logo ligne 1</string>
-    <string name="desc_ligne2">Logo ligne 2</string>
-    <string name="desc_ligne3">Logo ligne 3</string>
-    <string name="desc_ligne4">Logo ligne 4</string>
-    <string name="desc_ligne5">Logo ligne 5</string>
-    <string name="desc_ligne6">Logo ligne 6</string>
-    <string name="desc_ligne7">Logo ligne 7</string>
-    <string name="desc_ligne8">Logo ligne 8</string>
-    <string name="desc_ligne9">Logo ligne 9</string>
-    <string name="desc_ligne10">Logo ligne 10</string>
-    <string name="desc_ligned1">Logo ligne D1</string>
-    <string name="desc_ligned2">Logo ligne D2</string>
 
 </resources>
