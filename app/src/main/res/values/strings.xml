@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Artis Bus</string>
     <string name="activity_main">Artis Bus</string>
     <string name="activity_rss">Actualité</string>
@@ -8,7 +8,7 @@
     <string name="main_title">Artis Bus</string>
     <string name="menu_title">Rafraîchir</string>
     <string name="menu_home">Accueil</string>
-    <string name="menu_rss">Info trafic</string>
+    <string name="menu_rss" tools:ignore="Typos">Info trafic</string>
     <string name="menu_website">Site Artis</string>
     <string name="menu_refresh">Rafraîchir</string>
 
