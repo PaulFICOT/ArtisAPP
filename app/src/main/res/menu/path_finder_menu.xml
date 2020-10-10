@@ -17,10 +17,10 @@
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/menu_path_finder"
+        android:id="@+id/menu_refresh"
         android:orderInCategory="300"
         android:icon="@drawable/ic_path_finder"
         android:title="@string/menu_path_finder"
         app:showAsAction="ifRoom" />
-    
+
 </menu>

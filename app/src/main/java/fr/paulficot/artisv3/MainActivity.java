@@ -1,7 +1,6 @@
 package fr.paulficot.artisv3;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_home:
                 return true;
 
-            case R.id.menu_website:
+            /*case R.id.menu_website:
                 String url_website = Config.url_artis_website;
                 Intent intentWeb = new Intent();
                 intentWeb.setAction(Intent.ACTION_VIEW);
@@ -51,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
 
                 intentWeb.setData(Uri.parse(url_website));
                 startActivity(intentWeb);
+                return true;*/
+
+            case R.id.menu_path_finder:
+                Intent intentPathFinder = new Intent(MainActivity.this, PathFinderActivity.class);
+                MainActivity.this.startActivity(intentPathFinder);
                 return true;
 
             case R.id.menu_rss:

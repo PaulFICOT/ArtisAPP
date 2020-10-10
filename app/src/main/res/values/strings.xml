@@ -11,6 +11,7 @@
     <string name="menu_rss" tools:ignore="Typos">Info trafic</string>
     <string name="menu_website">Site Artis</string>
     <string name="menu_refresh">Rafraîchir</string>
+    <string name="menu_path_finder">Trouver son trajet</string>
 
     <!-- CARDVIEW -->
     <string name="cardview_1">Ligne 1</string>
@@ -25,6 +26,5 @@
     <string name="cardview_10">Ligne 10</string>
     <string name="cardview_d1">Ligne D1</string>
     <string name="cardview_d2">Ligne D2</string>
-
 
 </resources>
