@@ -20,7 +20,7 @@
             android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BusActivity"
+            android:name=".PDFActivity"
             android:label="@string/activity_bus"
             android:screenOrientation="portrait"
             android:noHistory="true"

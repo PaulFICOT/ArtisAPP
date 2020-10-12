@@ -12,7 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class BusActivity extends AppCompatActivity {
+public class PDFActivity extends AppCompatActivity {
 
     PDFView pdfView;
     Toolbar toolbarBus;
@@ -20,7 +20,7 @@ public class BusActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bus);
+        setContentView(R.layout.activity_pdf);
 
         toolbarBus = findViewById(R.id.toolbar_bus);
         setSupportActionBar(toolbarBus);
@@ -30,8 +30,8 @@ public class BusActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intentRss = new Intent(BusActivity.this, MainActivity.class);
-        BusActivity.this.startActivity(intentRss);
+        Intent intentRss = new Intent(PDFActivity.this, MainActivity.class);
+        PDFActivity.this.startActivity(intentRss);
     }
 
     @Override
@@ -44,8 +44,8 @@ public class BusActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_home:
-                Intent intentHome = new Intent(BusActivity.this, MainActivity.class);
-                BusActivity.this.startActivity(intentHome);
+                Intent intentHome = new Intent(PDFActivity.this, MainActivity.class);
+                PDFActivity.this.startActivity(intentHome);
                 return true;
 
             case R.id.menu_website:
@@ -60,8 +60,8 @@ public class BusActivity extends AppCompatActivity {
                 return true;
 
             case R.id.menu_rss:
-                Intent intentRss = new Intent(BusActivity.this, RSSActivity.class);
-                BusActivity.this.startActivity(intentRss);
+                Intent intentRss = new Intent(PDFActivity.this, RSSActivity.class);
+                PDFActivity.this.startActivity(intentRss);
                 return true;
         }
         return super.onOptionsItemSelected(item);

@@ -30,7 +30,7 @@ public class RSSActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rss2);
+        setContentView(R.layout.activity_rss);
 
         toolbarRss = findViewById(R.id.toolbar_rss);
         setSupportActionBar(toolbarRss);
