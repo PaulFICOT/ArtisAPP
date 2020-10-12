@@ -77,73 +77,73 @@ public class MainActivity extends AppCompatActivity {
                     if(finalI == 0) {
                         //Config.url_temp = Config.url_ligne_1;
                         Config.url_temp = Config.L1;
-                        Intent intentL1 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL1 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL1);
 
                     } else if (finalI == 1) {
                         //Config.url_temp = Config.url_ligne_2;
                         Config.url_temp = Config.L2;
-                        Intent intentL2 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL2 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL2);
 
                     } else if (finalI == 2) {
                         //Config.url_temp = Config.url_ligne_3;
                         Config.url_temp = Config.L3;
-                        Intent intentL3 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL3 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL3);
 
                     } else if (finalI == 3) {
                         //Config.url_temp = Config.url_ligne_4;
                         Config.url_temp = Config.L4;
-                        Intent intentL4 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL4 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL4);
 
                     } else if (finalI == 4) {
                         //Config.url_temp = Config.url_ligne_5;
                         Config.url_temp = Config.L5;
-                        Intent intentL5 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL5 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL5);
 
                     } else if (finalI == 5) {
                         //Config.url_temp = Config.url_ligne_6;
                         Config.url_temp = Config.L6;
-                        Intent intentL6 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL6 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL6);
 
                     } else if (finalI == 6) {
                         //Config.url_temp = Config.url_ligne_7;
                         Config.url_temp = Config.L7;
-                        Intent intentL7 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL7 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL7);
 
                     } else if (finalI == 7) {
                         //Config.url_temp = Config.url_ligne_8;
                         Config.url_temp = Config.L8;
-                        Intent intentL8 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL8 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL8);
 
                     } else if (finalI == 8) {
                         //Config.url_temp = Config.url_ligne_9;
                         Config.url_temp = Config.L9;
-                        Intent intentL9 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL9 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL9);
 
                     } else if (finalI == 9) {
                         //Config.url_temp = Config.url_ligne_10;
                         Config.url_temp = Config.L10;
-                        Intent intentL10 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentL10 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentL10);
 
                     } else if (finalI == 10) {
                         //Config.url_temp = Config.url_ligne_d1;
                         Config.url_temp = Config.LD1;
-                        Intent intentLD1 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentLD1 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentLD1);
 
                     } else if (finalI == 11) {
                         //Config.url_temp = Config.url_ligne_d2;
                         Config.url_temp = Config.LD2;
-                        Intent intentLD2 = new Intent(MainActivity.this, BusActivity.class);
+                        Intent intentLD2 = new Intent(MainActivity.this, PDFActivity.class);
                         startActivity(intentLD2);
 
                     } else {
