@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="8.5"
-    tools:context=".MainActivity">
+    tools:context=".RuralActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_main"
+        android:id="@+id/toolbar_rural"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -17,7 +17,7 @@
         app:titleTextColor="@android:color/white" />
 
     <GridLayout
-        android:id="@+id/grid_main"
+        android:id="@+id/grid_rural"
         android:columnCount="3"
         android:rowCount="4"
         android:alignmentMode="alignMargins"
@@ -27,9 +27,9 @@
         android:layout_height="0dp"
         android:layout_weight="8">
 
-        <!-- LIGNE 1 -->
+        <!-- LIGNE 11 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne1"
+            android:id="@+id/ligne11"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -44,18 +44,18 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l1"
+                    android:src="@drawable/l11"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_1" />
+                    android:contentDescription="@string/cardview_11" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 2 -->
+        <!-- LIGNE 12 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne2"
+            android:id="@+id/ligne12"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -70,18 +70,18 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l2"
+                    android:src="@drawable/l12"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_2" />
+                    android:contentDescription="@string/cardview_12" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 3 -->
+        <!-- LIGNE 13 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne3"
+            android:id="@+id/ligne13"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -96,18 +96,18 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l3"
+                    android:src="@drawable/l13"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_3" />
+                    android:contentDescription="@string/cardview_13" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 4 -->
+        <!-- LIGNE 14 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne4"
+            android:id="@+id/ligne14"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -122,18 +122,18 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l4"
+                    android:src="@drawable/l14"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_4" />
+                    android:contentDescription="@string/cardview_14" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 5 -->
+        <!-- LIGNE 15 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne5"
+            android:id="@+id/ligne15"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -148,18 +148,18 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l5"
+                    android:src="@drawable/l15"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_5" />
+                    android:contentDescription="@string/cardview_15" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 6 -->
+        <!-- LIGNE 16 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/line6"
+            android:id="@+id/line16"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -174,18 +174,18 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l6"
+                    android:src="@drawable/l16"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_6" />
+                    android:contentDescription="@string/cardview_16" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 7 -->
+        <!-- LIGNE 17 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne7"
+            android:id="@+id/ligne17"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -200,44 +200,27 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l7"
+                    android:src="@drawable/l17"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_7" />
+                    android:contentDescription="@string/cardview_17" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 8 -->
+        <!-- TEMP -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne8"
+            android:id="@+id/rural_temp"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/l8"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_8" />
-            </LinearLayout>
-
+            android:layout_rowWeight="1" >
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 9 -->
+        <!-- LIGNE 18 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligneç"
+            android:id="@+id/ligne18"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -252,89 +235,11 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l9"
+                    android:src="@drawable/l18"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_9" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE 10 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ligne10"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/l10"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_10" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE D1 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ligned1"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/ld1"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_d1" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE D2 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/lined2"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/ld2"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_d2" />
+                    android:contentDescription="@string/cardview_18" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

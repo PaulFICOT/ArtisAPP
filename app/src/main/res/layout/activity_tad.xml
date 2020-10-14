@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="8.5"
-    tools:context=".MainActivity">
+    tools:context=".TADActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_main"
+        android:id="@+id/toolbar_tad"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
@@ -17,7 +17,7 @@
         app:titleTextColor="@android:color/white" />
 
     <GridLayout
-        android:id="@+id/grid_main"
+        android:id="@+id/grid_tad"
         android:columnCount="3"
         android:rowCount="4"
         android:alignmentMode="alignMargins"
@@ -27,9 +27,9 @@
         android:layout_height="0dp"
         android:layout_weight="8">
 
-        <!-- LIGNE 1 -->
+        <!-- TAD 4 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne1"
+            android:id="@+id/lignetad4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -53,9 +53,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 2 -->
+        <!-- TAD 5 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne2"
+            android:id="@+id/lignetad5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -79,9 +79,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 3 -->
+        <!-- TAD 8 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne3"
+            android:id="@+id/lignetad8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -105,9 +105,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 4 -->
+        <!-- TAD 10 -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne4"
+            android:id="@+id/lignetad10"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -131,9 +131,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 5 -->
+        <!-- TAD Actiparc -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne5"
+            android:id="@+id/lignetadactiparc"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -157,9 +157,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 6 -->
+        <!-- TAD Artoipole -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/line6"
+            android:id="@+id/lignetadartoipole"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -183,9 +183,9 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- LIGNE 7 -->
+        <!-- TAD Pierre Bolle -->
         <androidx.cardview.widget.CardView
-            android:id="@+id/ligne7"
+            android:id="@+id/lignetadpierrebolle"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -205,136 +205,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/cardview_7" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE 8 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ligne8"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/l8"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_8" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE 9 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ligneç"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/l9"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_9" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE 10 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ligne10"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/l10"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_10" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE D1 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/ligned1"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/ld1"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_d1" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <!-- LIGNE D2 -->
-        <androidx.cardview.widget.CardView
-            android:id="@+id/lined2"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardCornerRadius="2dp" >
-
-            <LinearLayout
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <ImageView
-                    android:src="@drawable/ld2"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_d2" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

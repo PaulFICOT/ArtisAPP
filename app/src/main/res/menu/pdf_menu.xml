@@ -7,7 +7,7 @@
         android:id="@+id/menu_home"
         android:orderInCategory="100"
         android:icon="@drawable/ic_home"
-        android:title="@string/menu_website"
+        android:title="@string/menu_home"
         app:showAsAction="always" />
 
     <item
@@ -26,27 +26,32 @@
         tools:ignore="AlwaysShowAction" />
 
     <item
-        android:id="@+id/menu_rural"
+        android:id="@+id/menu_reguliere"
         android:orderInCategory="400"
+        android:title="@string/menu_regulieres"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_rural"
+        android:orderInCategory="500"
         android:title="@string/menu_rurales"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/menu_citadine"
-        android:orderInCategory="500"
+        android:orderInCategory="600"
         android:title="@string/menu_citadine"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/menu_tad"
-        android:orderInCategory="600"
+        android:orderInCategory="700"
         android:title="@string/menu_tad"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/menu_velectric"
-        android:orderInCategory="700"
+        android:orderInCategory="800"
         android:title="@string/menu_Velectric"
         app:showAsAction="ifRoom" />
-
 </menu>

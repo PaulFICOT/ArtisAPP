@@ -36,7 +36,7 @@ public class PDFActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.bus_menu, menu);
+        getMenuInflater().inflate(R.menu.pdf_menu, menu);
         return true;
     }
 

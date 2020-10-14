@@ -35,7 +35,7 @@ public class RSSActivity extends AppCompatActivity {
         toolbarRss = findViewById(R.id.toolbar_rss);
         setSupportActionBar(toolbarRss);
 
-        recyclerRss = (RecyclerView)findViewById(R.id.recycler_rss);
+        recyclerRss = findViewById(R.id.recycler_rss);
         LinearLayoutManager linearLayoutManager  = new LinearLayoutManager(getBaseContext(),LinearLayoutManager.VERTICAL,false);
         recyclerRss.setLayoutManager(linearLayoutManager);
 
@@ -55,6 +55,7 @@ public class RSSActivity extends AppCompatActivity {
         return true;
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -84,7 +85,7 @@ public class RSSActivity extends AppCompatActivity {
     private void loadRSS() {
         @SuppressLint("StaticFieldLeak") AsyncTask<String,String,String> loadRSSAsync = new AsyncTask<String, String, String>() {
 
-            ProgressDialog mDialog = new ProgressDialog(RSSActivity.this);
+            final ProgressDialog mDialog = new ProgressDialog(RSSActivity.this);
 
             @Override
             protected void onPreExecute() {
