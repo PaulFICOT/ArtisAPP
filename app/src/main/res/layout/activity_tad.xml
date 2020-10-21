@@ -44,11 +44,11 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l1"
+                    android:src="@drawable/tad4"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_1" />
+                    android:contentDescription="@string/cardview_tad4" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -70,11 +70,11 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l2"
+                    android:src="@drawable/tad5"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_2" />
+                    android:contentDescription="@string/cardview_tad5" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -96,11 +96,11 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l3"
+                    android:src="@drawable/tad8"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_3" />
+                    android:contentDescription="@string/cardview_tad8" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -122,11 +122,11 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l4"
+                    android:src="@drawable/tad10"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_4" />
+                    android:contentDescription="@string/cardview_tad10" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -148,11 +148,11 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l5"
+                    android:src="@drawable/tadactiparc"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_5" />
+                    android:contentDescription="@string/cardview_tadactiparc" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -174,13 +174,21 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l6"
+                    android:src="@drawable/tadartoipole"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_6" />
+                    android:contentDescription="@string/cardview_tadartoipole" />
             </LinearLayout>
 
+        </androidx.cardview.widget.CardView>
+
+        <!-- Temp -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" >
         </androidx.cardview.widget.CardView>
 
         <!-- TAD Pierre Bolle -->
@@ -200,13 +208,21 @@
                 android:layout_height="wrap_content" >
 
                 <ImageView
-                    android:src="@drawable/l7"
+                    android:src="@drawable/tadpierrebolle"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:contentDescription="@string/cardview_7" />
+                    android:contentDescription="@string/cardview_tadpierrebolle" />
             </LinearLayout>
 
+        </androidx.cardview.widget.CardView>
+
+        <!-- Temp -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1" >
         </androidx.cardview.widget.CardView>
 
     </GridLayout>

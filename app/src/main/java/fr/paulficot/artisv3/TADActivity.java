@@ -132,9 +132,13 @@ public class TADActivity extends AppCompatActivity {
                         startActivity(intentL6);
 
                     } else if (finalI == 6) {
+
+                    } else if (finalI == 7) {
                         Config.url_temp = Config.TADPierreBolle;
                         Intent intentL7 = new Intent(TADActivity.this, PDFActivity.class);
                         startActivity(intentL7);
+
+                    } else if (finalI == 8) {
 
                     } else {
                         Toast.makeText(TADActivity.this, "Erreur activité invalide. Contacter l'administrateur", Toast.LENGTH_SHORT)
