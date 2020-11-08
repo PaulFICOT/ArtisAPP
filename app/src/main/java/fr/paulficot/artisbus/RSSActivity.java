@@ -1,4 +1,4 @@
-package fr.paulficot.artisv3;
+package fr.paulficot.artisbus;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -17,9 +17,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 
-import fr.paulficot.artisv3.Adapter.FeedAdapter;
-import fr.paulficot.artisv3.Common.HTTPDataHandler;
-import fr.paulficot.artisv3.Model.RSSObject;
+import fr.paulficot.artisbus.Adapter.FeedAdapter;
+import fr.paulficot.artisbus.Common.HTTPDataHandler;
+import fr.paulficot.artisbus.Model.RSSObject;
 
 public class RSSActivity extends AppCompatActivity {
 

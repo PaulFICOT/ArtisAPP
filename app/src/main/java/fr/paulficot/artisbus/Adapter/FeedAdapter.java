@@ -1,9 +1,7 @@
-package fr.paulficot.artisv3.Adapter;
+package fr.paulficot.artisbus.Adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -12,9 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import fr.paulficot.artisv3.Interface.ItemClickListener;
-import fr.paulficot.artisv3.Model.RSSObject;
-import fr.paulficot.artisv3.R;
+import fr.paulficot.artisbus.Interface.ItemClickListener;
+import fr.paulficot.artisbus.Model.RSSObject;
+import fr.paulficot.artisbus.R;
 
 
 class FeedViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {

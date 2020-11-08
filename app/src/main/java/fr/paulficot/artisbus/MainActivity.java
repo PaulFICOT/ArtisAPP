@@ -1,4 +1,4 @@
-package fr.paulficot.artisv3;
+package fr.paulficot.artisbus;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

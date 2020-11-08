@@ -1,4 +1,4 @@
-package fr.paulficot.artisv3;
+package fr.paulficot.artisbus;
 
 public class Config {
 

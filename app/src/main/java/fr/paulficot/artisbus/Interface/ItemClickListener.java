@@ -1,4 +1,4 @@
-package fr.paulficot.artisv3.Interface;
+package fr.paulficot.artisbus.Interface;
 
 import android.view.View;
 

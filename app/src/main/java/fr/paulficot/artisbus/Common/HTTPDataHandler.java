@@ -1,4 +1,4 @@
-package fr.paulficot.artisv3.Common;
+package fr.paulficot.artisbus.Common;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;

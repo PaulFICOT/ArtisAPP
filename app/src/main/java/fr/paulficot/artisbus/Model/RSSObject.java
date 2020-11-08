@@ -1,4 +1,4 @@
-package fr.paulficot.artisv3.Model;
+package fr.paulficot.artisbus.Model;
 
 import java.util.List;
 
