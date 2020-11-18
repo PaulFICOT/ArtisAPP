@@ -5,14 +5,20 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import fr.paulficot.artisbus.Interface.ItemClickListener;
 import fr.paulficot.artisbus.Model.RSSObject;
 import fr.paulficot.artisbus.R;
+
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
 
 class FeedViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener {
@@ -78,16 +84,18 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedViewHolder> {
         holder.setItemClickListener(new ItemClickListener() {
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
-                /*if(!isLongClick)
+                if(!isLongClick)
                 {
                     String url = rssObject.getItems().get(position).getLink();
+                    //Toast.makeText(rssContext, url, Toast.LENGTH_SHORT).show();
                     Intent intentWeb = new Intent();
                     intentWeb.setAction(Intent.ACTION_VIEW);
                     intentWeb.addCategory(Intent.CATEGORY_BROWSABLE);
 
                     intentWeb.setData(Uri.parse(url));
+                    intentWeb.setFlags(FLAG_ACTIVITY_NEW_TASK);
                     rssContext.startActivity(intentWeb);
-                }*/
+                }
             }
         });
     }
