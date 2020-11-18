@@ -85,7 +85,7 @@ public class RSSActivity extends AppCompatActivity {
     private void loadRSS() {
         @SuppressLint("StaticFieldLeak") AsyncTask<String,String,String> loadRSSAsync = new AsyncTask<String, String, String>() {
 
-            ProgressDialog mDialog = new ProgressDialog(RSSActivity.this);
+            final ProgressDialog mDialog = new ProgressDialog(RSSActivity.this);
 
             @Override
             protected void onPreExecute() {

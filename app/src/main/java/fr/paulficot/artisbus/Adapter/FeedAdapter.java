@@ -12,7 +12,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import fr.paulficot.artisbus.Interface.ItemClickListener;
 import fr.paulficot.artisbus.Model.RSSObject;
@@ -57,9 +56,9 @@ class FeedViewHolder extends RecyclerView.ViewHolder implements View.OnClickList
 
 public class FeedAdapter extends RecyclerView.Adapter<FeedViewHolder> {
 
-    private RSSObject rssObject;
-    private Context rssContext;
-    private LayoutInflater inflater;
+    private final RSSObject rssObject;
+    private final Context rssContext;
+    private final LayoutInflater inflater;
 
     public FeedAdapter(RSSObject rssObject, Context rssContext) {
         this.rssObject = rssObject;
@@ -87,7 +86,6 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedViewHolder> {
                 if(!isLongClick)
                 {
                     String url = rssObject.getItems().get(position).getLink();
-                    //Toast.makeText(rssContext, url, Toast.LENGTH_SHORT).show();
                     Intent intentWeb = new Intent();
                     intentWeb.setAction(Intent.ACTION_VIEW);
                     intentWeb.addCategory(Intent.CATEGORY_BROWSABLE);
