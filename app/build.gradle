@@ -9,8 +9,8 @@ android {
         applicationId "fr.paulficot.artisbus"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 6
-        versionName "2.0"
+        versionCode 7
+        versionName "2.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -29,8 +29,8 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.material:material:1.2.1'
-    implementation 'androidx.navigation:navigation-fragment:2.3.1'
-    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
     //PDF
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     //RSS
