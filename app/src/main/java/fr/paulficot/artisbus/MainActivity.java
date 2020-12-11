@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
+import java.util.Map;
+
 public class MainActivity extends AppCompatActivity {
 
     GridLayout gridMain;
@@ -42,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_home:
-                return true;
 
             case R.id.menu_website:
                 String url_website = Config.url_artis_website;
@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
 
                 intentWeb.setData(Uri.parse(url_website));
                 startActivity(intentWeb);
+                return true;
+
+            case R.id.menu_map:
+                Intent intentMap = new Intent(MainActivity.this, MapActivity.class);
+                MainActivity.this.startActivity(intentMap);
                 return true;
 
             case R.id.menu_rss:

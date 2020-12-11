@@ -75,6 +75,11 @@ public class RSSActivity extends AppCompatActivity {
                 startActivity(intentWeb);
                 return true;
 
+            case R.id.menu_map:
+                Intent intentMap = new Intent(RSSActivity.this, MapActivity.class);
+                RSSActivity.this.startActivity(intentMap);
+                return true;
+
             case R.id.menu_refresh:
                 loadRSS();
 

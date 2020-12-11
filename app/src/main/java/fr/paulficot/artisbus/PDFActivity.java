@@ -61,6 +61,11 @@ public class PDFActivity extends AppCompatActivity {
                 startActivity(intentWeb);
                 return true;
 
+            case R.id.menu_map:
+                Intent intentMap = new Intent(PDFActivity.this, MapActivity.class);
+                PDFActivity.this.startActivity(intentMap);
+                return true;
+
             case R.id.menu_rss:
                 Intent intentRss = new Intent(PDFActivity.this, RSSActivity.class);
                 PDFActivity.this.startActivity(intentRss);

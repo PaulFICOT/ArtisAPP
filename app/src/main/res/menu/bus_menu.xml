@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="AlwaysShowAction">
 
     <item
         android:id="@+id/menu_home"
         android:orderInCategory="100"
         android:icon="@drawable/ic_home"
         android:title="@string/menu_home"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/menu_website"
         android:orderInCategory="200"
         android:icon="@drawable/ic_website"
         android:title="@string/menu_website"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_map"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_map"
+        android:title="@string/menu_map"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/menu_rss"
-        android:orderInCategory="300"
+        android:orderInCategory="400"
         android:icon="@drawable/ic_rss"
         android:title="@string/menu_rss"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always"/>
 
 </menu>
